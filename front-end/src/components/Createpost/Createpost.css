@@ -1,0 +1,55 @@
+.create-post{
+    max-width: 370px;
+    margin: 10px auto;
+    border: 1px solid rgb(173,173,173);
+    border-radius: 5px;
+}
+.main{
+    border-top: 1px solid rgb(173,173,173);
+    text-align: center;
+}
+.main input{
+    margin-left: 8px;
+margin-left: 78px;
+}
+
+.post-header{
+    display: flex;
+    margin: 10px;
+    
+}
+.post-header h4{
+    margin: 3px auto;
+    font-size: 18px;
+}
+#img-icon{
+    margin-top: 5px;
+    height: 70px;
+    width: 70px;
+}
+#post-btn{
+    border: none;
+    background: none;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(47, 126, 128);
+}
+.details{
+    border-top: 1px solid rgb(173,173,173);
+}
+textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+#output{
+    margin-top: 10px;
+    width: 50%;
+    border: none;
+    outline: none;
+}
+.card-header span{
+    margin-top: 7px;
+
+}

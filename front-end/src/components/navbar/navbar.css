@@ -1,0 +1,180 @@
+body{
+    background-color: #87ceeb33;
+}
+.navbar img{
+    width: 10%;
+}
+.navbar{
+    display: flex;
+    background-image: linear-gradient(rgb(219 96 117 / 71%), #87cefa70);
+    padding: 10px;
+    justify-content: space-around;
+    box-shadow: 1px 5px 5px gray;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    align-items: baseline;
+}
+.nav-mobile{
+    display: none;
+}
+.nav-items li{
+   
+    padding: 1px 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.signup{
+    text-align: center;
+}
+
+
+.signup{
+    text-align: center;
+    background: url('../../imgs/luke-chesser-CxBx_J3yp9g-unsplash.jpg') no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+}
+
+.signup-container{
+    margin: auto;
+}
+.signup-form-1{
+    background-color:#ffffff6b;
+    padding: 30px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 2px;
+}
+.signup img{
+    width: 10%;
+    object-fit: contain;
+    width: 200px;
+    padding: 10px 0px;
+}
+.login-para{
+    color: #e9dede;
+    font-size: 17px;
+    font-weight: 600px;
+    margin: 0px 35px 20px 35px;
+    line-height: 20px;
+}
+input{
+    padding: 5px;
+    margin: 3px 0px;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+
+}
+.signUp-para{
+    color: #e9dede;;
+    
+    font-size: 15px;
+    font-weight: 600px;
+    margin: 15px 35px 15px 35px;
+    line-height: 20px;
+}
+
+.signup-form-1 div{
+    width: 80%;
+    background-color:#ffffff6b;
+    margin: auto;
+}
+.btn-0{
+    width:80%;
+    padding: 10px 3px;
+    background-color: rgb(78, 78, 239);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    margin-top: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.signup-form-2{
+    text-align: center;
+    background-color:#ffffff6b;;
+    padding: 20px 30px 20px 30px;
+    margin-top: 10px;
+    
+}
+
+.bg-clr{
+    background-color: #ffffff69;
+}
+.message{
+    padding-top: 6px;
+    color: blue;
+}
+.error{
+    padding-top: 6px;
+    color: red;
+}
+
+.primaryBtn{
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 13px 20px;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    background: #db183c;
+    border-radius: 15px;
+    margin-left: 10px;
+    transition: all 0.25s ease;
+    /* margin-left: 20px; */
+}
+
+.primaryBtn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgb(219,24,44,0.6);
+}
+
+@media (max-width:800px){
+   
+    #insta-logo{
+        display: none;
+        
+    }
+    
+    .nav-items{
+        display: none;
+    }
+    .nav-mobile{
+        width: 98%;
+        display: flex;
+        justify-content:space-around;
+        list-style: none;
+        margin: 0px;
+    }
+    .navbar{
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        left: 0;
+        padding: 0px;
+        background: white;
+
+    }
+
+    .navbar ul{
+        padding: 10px 0px;
+    }
+
+}

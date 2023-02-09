@@ -1,0 +1,62 @@
+.show-comment{
+    width: 100vw;
+    min-height:100vh ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(16, 13, 13, 0.4);
+}
+.comment-container{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 500px;
+}
+.post-pic{
+    background-color: black;
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+.post-pic img{
+    /* object-fit: contain; */
+    height: 100%;
+    width: 100%;
+}
+.comment-details{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.comment-section{
+    flex-grow: 4;
+    text-align: left;
+    margin-left: 10px;
+}
+.close-comment{
+    position: fixed;
+    top: 1%;
+    right: 5%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.card-Header{
+border-bottom: 1px solid rgba(114,114,144,.374);
+}
+.comment-section{
+    border-bottom: 1px solid rgba(114,114,144,.374);
+}
+
+.deletePost{
+    position: absolute;
+    top: 10px;
+    right:10px;
+    cursor: pointer;
+    
+}
